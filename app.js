@@ -1,4 +1,4 @@
-const API_BASE = "";
+const API_BASE = "https://choreywa.onrender.com";
 let token = localStorage.getItem("rentToken") || null;
 let user = JSON.parse(localStorage.getItem("rentUser")) || null;
 let userCoords = { lat: null, lng: null };
