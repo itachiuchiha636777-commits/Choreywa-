@@ -1,3 +1,4 @@
+const API_BASE = "";
 let token = localStorage.getItem("rentToken") || null;
 let user = JSON.parse(localStorage.getItem("rentUser")) || null;
 let userCoords = { lat: null, lng: null };
